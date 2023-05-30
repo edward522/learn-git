@@ -1,0 +1,58 @@
+style
+display:inline block
+.subscribe{
+    background-color: rgb(4, 255, 0);
+        col    or: red;
+        height: 15px;width: 15px;
+        text-align: right;
+        margin-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    text-align: center;}
+.like{
+    background-color: blue;
+    color: red;
+    height: 15px;width: 15px;
+    text-align: right;
+    margin-top: 5px;
+padding-left: 10px;
+padding-bottom: 5px;
+text-align: center;
+    }
+
+.share{
+    
+    background-color: blue;
+    color: red;
+    height: 15px;width: 15px;
+    text-align: right;
+    margin-top: 5px;
+padding-left: 10px;
+padding-bottom: 5px;
+text-align: center;
+    
+}
+.join{
+    
+    background-color: rgb(229, 255, 0);
+    color: red;
+    height: 15px;width: 15px;
+    text-align: right;
+    margin-top: 5px;
+padding-left: 10px;
+padding-bottom: 5px;
+text-align: center;
+    
+}
+.twitte{
+
+background-color: rgb(174, 0, 255);
+    col    or: red;
+    height: 15px;width: 15px;
+    text-align: right;
+    margin-top: 5px;
+padding-left: 10px;
+padding-bottom: 5px;
+text-align: center;
+
+}
