@@ -1,0 +1,28 @@
+
+
+box-sizing:border-box
+.container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-image: url(./hero-1.jpg.webp);
+
+    height: 724px;
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+    background-size: cover;
+}
+    .hero{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    color: blue;
+    text-align: left;
+    margin-bottom: 20px;
+    width: 367px;
+    
+}

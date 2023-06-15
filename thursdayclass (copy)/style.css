@@ -1,0 +1,58 @@
+.grid-container{
+
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(3, 300px);
+    row-gap: 10px;
+    column-gap: 10px;
+    justify-content: center;
+}
+    
+.box1{
+    color: blue;
+    background-color: brown;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url('./bk1');
+}
+.box2{
+    color: red;
+    background-color: greenyellow;}
+
+
+.box3{
+    color: violet;
+    background-color: orange;
+
+}
+.box4{
+    color: chartreuse;
+    background-color: yellow;
+
+}
+.box5{
+    color: black;
+    background-color: blue;}
+    
+.box6{
+    color:red;
+    background-color:hotpink;
+
+}
+.box7{
+    color: black;
+    background-color: brown;
+
+}
+.box8{
+    color: beige;
+    background-color: lavender;
+
+}
+.box9{
+    color: wheat;
+    background-color: yellowgreen;
+
+}

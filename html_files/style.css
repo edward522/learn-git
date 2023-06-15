@@ -1,0 +1,68 @@
+*{  padding: 0;
+    margin: 0;
+    box-sizing: border-box;}
+.content-container{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    gap: 20px;
+    align-content: center;
+    margin-left:10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.about-us{
+    background-color: red;
+    padding-left: 10px;
+    
+    border: 10px;
+    border-width: 10px;
+    border-style: solid;
+    width: 30%;
+}
+.contact-us{
+    background-color: navy;
+    padding: 10px;
+    border: 0;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+    width: 30%;
+}
+.address{
+    background-color:greenyellow;
+    padding: 10px;
+    border: 10px;
+    border-width: 10px;
+    border-style: solid;
+    width: 30%;
+    
+    
+} 
+.services{
+    background-color: purple;
+    padding-left: 10px;
+    border: 0;
+    border-width: 10px;
+    border-color: red;
+    border-style: solid;
+}
+.carrier{
+    background-color: yellow;
+    padding-left: 15px;
+    border: 10px;
+    border-width: 10px;
+    border-style: solid;
+    
+}
+.website{
+    background-color: orange;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding: 10px;
+    border: 10px;
+    border-width: 10px;
+    border-style: solid;
+    width: 30%;
+}
+

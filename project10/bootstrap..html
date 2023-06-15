@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/bootstrap.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./bootstrap._files/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+
+        .col-4{
+            height: 200px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container bg-danger">hello world</div>
+    <h1 class="bg-primary">primary</h1>
+    <h1 class="bg-danger">danger</h1>
+    <h1 class="bg-info"></h1>
+    <h1 class="bg-sucess"></h1>
+
+
+
+    <div class="container">
+        <div class="row">
+          <div class="col-4 bg-danger">
+            <h1>Box 1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae aspernatur dolor iusto quidem! Impedit rem, nobis dolorum voluptatem eius sint maiores, non totam voluptate dolore minima perferendis at magnam illo.</p>
+          </div>
+
+          <div class="col-4 bg-primary">
+            <h1>box1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum perspiciatis illo deleniti dolorem explicabo voluptates unde. Harum, natus quisquam. Vitae perspiciatis animi velit nam. Totam natus incidunt velit aut.</p>
+          </div>
+          <div class="col-4 bg-warning">
+            <h1>box1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum culpa nam fuga veritatis. Modi minus nihil sunt at reprehenderit maxime nulla eos eveniet, tenetur quod quo dolore, maiores labore repellendus!</p>
+          </div>
+          <div class="col-4 bg-secondary">box1
+            <h1>box</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatibus ut optio dolorum id odit sunt cum cupiditate quidem dolores aperiam corrupti consectetur magnam impedit perspiciatis veritatis, reprehenderit vel. Quidem!</p>
+          </div>
+          <div class="col-4 bg-sucess">box1
+            <h1>box1</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia vel possimus cumque nihil sint natus qui voluptatibus earum voluptas laboriosam at, sapiente doloribus reiciendis minus inventore iusto! Quasi, neque hic.</p>
+          </div>
+          <div class="col-4 bg-primary">box1
+            <h1>box</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, provident repellat? Deleniti porro accusamus debitis nihil magni quo labore laudantium laboriosam fugiat, sit alias? Repudiandae cum quae est officiis aliquid.</p>
+          </div>
+          <div class="col-4 bg-danger">box1
+            <h1>box1</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi culpa illo quos distinctio quod itaque ipsam dolores, laudantium quas molestiae minima minus odit placeat magni aliquam praesentium sit ea id.</p>
+          </div>
+          <div class="col-4 bg-secondary">box
+            <h1>box1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt aspernatur quia cum, tenetur quibusdam eum dicta reiciendis provident distinctio sed nobis at repellat, temporibus blanditiis excepturi exercitationem esse soluta totam?</p>
+          </div>
+          <div class="col-4 bg-danger">box
+            <h1>box1</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto, alias? Deleniti numquam aperiam non inventore dolores deserunt autem, nulla, voluptatibus unde nisi rerum odio iure saepe quod neque vel assumenda!</p>
+          </div>
+        
+         
+        </div>
+        
+      </div>
+
+    <script src="./bootstrap._files/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

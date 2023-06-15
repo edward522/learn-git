@@ -1,0 +1,42 @@
+// HOW TO CONFIGURE GIT AND COMMIT TO IT
+
+--------------------------------------------------------
+
+goto folder you wish to commit
+right click on it and click open with terminal
+type ls
+type git init
+type git status
+type git add .
+type git commit -m "specify a comment"
+type git remote add 'name' url
+type git push name(name of the prev url) main
+
+to create a branch--
+type git checkout -b main
+git pull (name of url) main
+git pull Assignment main --allow-unrelated-histories
+
+
+
+
+
+//echo "# Database" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/dabreeze/Database.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/dabreeze/Database.git
+git branch -M main
+git push -u origin main
+
+vivian 234 905 514 6851
+
+git tokens
+
+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
